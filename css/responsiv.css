@@ -1,0 +1,28 @@
+@media (max-width:1244px){
+    .main{
+        margin: auto;  
+    }
+}
+@media (max-width:1105px){
+    .main{
+        margin: auto;  
+        -ms-flex-wrap: wrap;  
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+}
+
+@media (max-width:1074px){
+    .images{
+        max-width: 352px;
+        width: 100%;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: auto;
+    }
+}
